@@ -1,0 +1,143 @@
+body{
+	margin: 0%;
+	background-color: rgb(0, 0, 0);
+}
+*{
+	box-sizing: border-box;
+}
+button{
+	font-size: 20px;
+	padding: 3px 15px ;
+	box-shadow: 1px 1px ;
+	background-color: blueviolet;
+	color: white;
+}
+button:hover{
+	background-color: rgb(91, 0, 177);
+}
+
+.conteiner{
+	max-width: 1400px;
+	margin: auto;
+}
+
+header .logo{
+	margin: 0%;
+	padding: 25px 25px;
+	color: rgb(255, 255, 255);
+	font-family:fantasy;
+	font-size: 40px;
+}
+header .conteiner{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+header nav{
+	flex-direction: row;
+	padding-bottom: 0px;
+	padding-right: 20px;
+}
+header a{
+	padding: 5px 12px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+header a:hover{
+	color: blueviolet;
+}
+#fondo{
+	background-image: url(imagenes/detailing.jpg);
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	height: 800px;
+	text-shadow: 1px 1px;
+	background-size: cover;
+	background-position: center center;
+}
+h2{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	font-family: "Inter var", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p{
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	font-family: Arial, Helvetica, sans-serif;
+}
+#somos-este .conteiner{
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+}
+#somos-este .contenedor-img{
+	background-image: url(imagenes/fondo2.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 600px;
+	width: 1000px;
+}
+.texto{
+	font-size: 20px;
+	width: 50%;
+	text-align: initial;
+	padding: 0px 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#tablas{
+	color: rgb(255, 255, 255);
+}
+#tablas .trata{
+	background-image: url(imagenes/acrilico.png);
+	background-position: cover;
+	height: 700px;
+	width: 100%;
+	margin-bottom: 150px;
+	background-repeat: no-repeat;
+}
+#tablas .produ{
+	background-image: url(imagenes/pulidollanta.jpg);
+	height: 600px;
+	width: 100%;
+}
+#tablas .text{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 200px;
+	font-size: 60px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+h3{
+	font-family:"Inter var", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 22px;
+	color: white;
+}
+h2{
+	font-family: "Inter var", "Helvetica Neue", Helvetica, sans-serif;
+}
+#formulario{
+	padding-top: 100px;
+}
+#formulario .enviar{
+	width: 100px;
+	height: 50px;
+	font-family: "Inter var", "Helvetica Neue", Helvetica, sans-serif;
+}
+#formulario .borrar{
+	width: 100px;
+	height: 50px;
+}
+footer{
+	text-align: center;
+	font-family: "Inter var", "Helvetica Neue", Helvetica, sans-serif;
+}

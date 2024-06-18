@@ -1,0 +1,60 @@
+body{
+	background-color: black;
+}
+.conteiner{
+	max-width: 1400px;
+	margin: auto;
+}
+
+header .logo{
+	margin: 0%;
+	padding: 25px 25px;
+	color: rgb(255, 255, 255);
+	font-family:fantasy;
+	font-size: 40px;
+}
+header .conteiner{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+header nav{
+	flex-direction: row;
+	padding-bottom: 0px;
+	padding-right: 20px;
+}
+header a{
+	padding: 5px 12px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+h3{
+	color: whitesmoke;
+}
+.producto-fotos{
+	float: left;
+	text-align: center;
+}
+.productos{
+	width: 500px;
+	height: 500px;
+	padding-right: 30px;
+	padding-left: 90px;
+	padding-bottom: 50px;
+}
+.tratamiento-fotos{
+	float: left;
+	text-align: center;
+	margin-top: 10px;
+}
+.tratamientos{
+	width: 750px;
+	height: 600px;
+	padding-right: 60px;
+	padding-left: 90px;
+}

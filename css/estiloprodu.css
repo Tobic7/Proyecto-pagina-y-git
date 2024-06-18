@@ -1,0 +1,46 @@
+#cajafoto{
+	width: 900px;
+	height: 900px;
+	margin: auto;
+}
+#izq{
+    width: 100px;
+    height: 900px;
+    float: left;
+    color: rgb(24, 24, 24);
+    font-size: 70px;
+    padding-top: 450px;
+    text-align: center;
+}
+#izq a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+#izq a:hover{
+    color: black;
+}
+#foto{
+    width: 700px;
+    height: 1000px;
+    float: left;
+}
+.shampoo{
+    width: 700px;
+    height: auto;
+}
+#der{
+    width: 100px;
+    height: 900px;
+    float: left;
+    color: rgb(24, 24, 24);
+    font-size: 70px;
+    padding-top: 450px;
+    text-align: center;
+}
+#der a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+#der a:hover{
+    color: black;
+}
