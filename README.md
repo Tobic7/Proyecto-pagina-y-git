@@ -1,0 +1,3 @@
+-Primera pagina hecha con HTML Y CSS para practicar los "lenguajes" (entre parentesis por la controversia de no ser un lenguaje de programacion jaja)
+-Primer commit y push
+-Primera vez usando Git Bash
